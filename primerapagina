@@ -1,0 +1,37 @@
+<!--primera pagina web de wesley-->
+ <html>
+     <!--HEAD es como el cerebro oculto de la pagina-->
+     <head>
+         <title>Mi primera pagina</title>
+          <!--permite entender al navegador para mostrar caracteres especiales-->
+         <meta charset = "UTF-8">
+          <link rel="stylesheet" href="estilos.css">
+          <!-- Enlazar fuente Pacifico desde Google Fonts -->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+ 
+     </head>
+     
+     <body>
+         <!--primera cabezera de la pagina-->
+         <h1> Página de Wesley Laura</h1>
+         <section>
+             <h2>Hola amigos como estan</h2>
+         <p>See more <a href="https://esis.unjbg.edu.pe/" target="_blank">ESIS UNJBG </a> Página Oficial</p>
+         <a href="https://support.microsoft.com/es-es/topic/-qu%C3%A9-es-la-ciberseguridad-8b6efd59-41ff-4743-87c8-0850a352a390#:~:text=La%20ciberseguridad%2C%20tambi%C3%A9n%20conocida%20como,fotos%20e%20incluso%20el%20dinero." target="_blank"><img src="https://latam.kaspersky.com/content/es-mx/images/repository/isc/2020/cyber-security-article.jpg" 
+             alt="ciberseguridad" width="400"></a>
+         <p>Párrafo uno</p>
+         </section>
+             <section>
+                 <h2>Principios de la seguridad de la informática</h2>
+                 <ul>
+                     <li>Confidencialidad</li>
+                     <li>Disponibilidad</li>
+                     <li>Integridad</li>
+                 </ul>
+             </section>
+     </body>
+ 
+ 
+ </html>

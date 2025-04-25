@@ -1,4 +1,5 @@
 <!--primera pagina web de wesley-->
+<!DOCTYPE html>
 <html>
     <!--HEAD es como el cerebro oculto de la pagina-->
     <head>
@@ -10,27 +11,88 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-
+        
     </head>
     
     <body>
         <!--primera cabezera de la pagina-->
-        <h1> Página de Wesley Laura</h1>
+        <h1 class="titulop"> Página de Wesley Laura</h1>
         <section>
             <h2>Hola amigos como estan</h2>
+            <table class="tablas">
+                <thead> <!--etiqueta para agrupar cabezeras-->
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                    </tr>
+                <thead>
+                <tbody> <!--para agrupar todas las filas de cuerpo de la tabla-->
+                    <tr>
+                        <td>Hola</td>
+                        <td>gratis</td>
+                    </tr> 
+                    <tr>
+                        <td>Tesla</td>
+                        <td>34.3</td>
+                    </tr>   
+                    <tr>
+                        <td>Tesla super Tesla</td>
+                        <td>3100</td>
+                    </tr>     
+                </tbody>
+
+                <tfoot> <!--para agregar filas-->
+                    <td>ESIS</td>
+                    <td> Total 52554.2</td>
+                </tfoot>
+            </table>
         <p>See more <a href="https://esis.unjbg.edu.pe/" target="_blank">ESIS UNJBG </a> Página Oficial</p>
-        <a href="https://support.microsoft.com/es-es/topic/-qu%C3%A9-es-la-ciberseguridad-8b6efd59-41ff-4743-87c8-0850a352a390#:~:text=La%20ciberseguridad%2C%20tambi%C3%A9n%20conocida%20como,fotos%20e%20incluso%20el%20dinero." target="_blank"><img src="https://latam.kaspersky.com/content/es-mx/images/repository/isc/2020/cyber-security-article.jpg" 
-            alt="ciberseguridad" width="400"></a>
-        <p>Párrafo uno</p>
+        <a href="https://support.microsoft.com/es-es/topic/-qu%C3%A9-es-la-ciberseguridad-8b6efd59-41ff-4743-87c8-0850a352a390#:~:text=La%20ciberseguridad%2C%20tambi%C3%A9n%20conocida%20como,fotos%20e%20incluso%20el%20dinero." target="_blank"><img src="img/pictogramas.png" 
+            alt=pictogramas" width="400" height="400"></a>
+        <p>Párrafo uno</p> 
+            <form action="/formulario" method="POST">
+                <label for="Nombre">Nombre: </label>
+                <input  value="Wesley" type="text" id="Nombre" name="Nombre" placeholder="Nombre" />
+                <br> <!--etiqueta de salto de linea-->
+                <label for="Apellido">Apellido: </label>
+                <input value="Laura" type="text" id="Apellido" name="Apellido" placeholder="Apellido" />
+                <div class = "comentario">
+                <label for="comentario">Comentario:</label><br>
+                <textarea  cols ="50" rows="10" id="comentario" placeholder="Ingrese comentario" name="comentario">este un valor por defecto</textarea>
+                </div>
+                <br>
+                <button type="button">Tipo botón</button>
+                <button type="reset">Tipo Reset</button>
+                <button type="submit">tipo submit</button>
+            </form>
         </section>
+        <hr>
             <section>
                 <h2>Principios de la seguridad de la informática</h2>
+                <!--ul es lista no ordenada-->
                 <ul>
                     <li>Confidencialidad</li>
                     <li>Disponibilidad</li>
                     <li>Integridad</li>
                 </ul>
+
+                <!--ul es lista  ordenada-->
+                <ol>
+                    <li value ="60" >Confidencialidad</li>
+                    <li>Disponibilidad</li>
+                    <li>Integridad</li>
+                    <li>Holi
+                        <ol class="niveles">
+                            <li>sub elemento 1</li>
+                            <li>sub elemento 2</li>
+                            <li>sub elemento 3</li>
+                        </ol>
+                    </li>
+                </ol>
             </section>
+            <footer>
+                <a>Derechos de autor</a>
+            </footer>
     </body>
 
 

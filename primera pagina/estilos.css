@@ -8,8 +8,7 @@ body {
 
 }
 
-
-h1 {
+.titulop{
     color: blue;
     font-family:"Pacifico", cursive;
     font-size: 48xp;
@@ -17,3 +16,28 @@ h1 {
     text-align: center;
 }
 
+.tablas,th,td {
+    border : 2px solid black;  
+}
+
+
+.niveles{
+    list-style-type:lower-roman;
+    color:green;
+}
+
+.comentario{
+    font-family:
+    color:
+}
+.derechos{
+    text-align:center;
+}
+
+.titulo{
+    color: blue;
+    font-family:"Pacifico", cursive;
+    font-size: 48xp;
+    margin-top: 100xp;
+    text-align: center;
+}

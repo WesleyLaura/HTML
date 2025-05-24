@@ -9,7 +9,7 @@ body {
 }
 
 .titulop{
-    color: blue;
+    color:blue;
     font-family:"Pacifico", cursive;
     font-size: 48xp;
     margin-top: 100xp;
@@ -23,7 +23,7 @@ body {
 
 .niveles{
     list-style-type:lower-roman;
-    color:green;
+    color:rgb(255, 0, 251);
 }
 
 .comentario{
@@ -32,12 +32,6 @@ body {
 }
 .derechos{
     text-align:center;
+    color: rgb(19, 16, 16);
 }
 
-.titulo{
-    color: blue;
-    font-family:"Pacifico", cursive;
-    font-size: 48xp;
-    margin-top: 100xp;
-    text-align: center;
-}
